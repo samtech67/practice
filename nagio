@@ -1,0 +1,27 @@
+Defaults    env_keep += "MAIL PS1 PS2 QTDIR USERNAME LANG LC_ADDRESS LC_CTYPE"
+Defaults    env_keep += "LC_COLLATE LC_IDENTIFICATION LC_MEASUREMENT LC_MESSAGES"
+
+Defaults    env_keep += "LC_MONETARY LC_NAME LC_NUMERIC LC_PAPER LC_TELEPHONE"
+
+#cmnd_Alias   shell_cmds =/bin/sh,/usr/bin/sh, /sbib/sh, /bin/sh
+                        /usr /bin/csh, /bin/ksh, /usr/bin/ksh, /bin/bash
+
+			/usr/bin/bash
+# cmnd_alias shell_exec_cmds = /bin /more,/usr/bin/more,/bin/vi,
+#Allow people in the group wheel to run all commands
+#%wheel ALL=(All)
+same thing withpout the password 
+#% wheel  All=(All) No passwd :all 
+
+##Allow members of the user group to mount/unmount  
+cdrom as root 
+# % users ALl = /sbin/mount/mnts/cdrom 
+
+Allow all group user to run DB related commands
+
+This file is just a skeleton sudoers file with some PAS wide Default 
+To add/change sudoers at the team Level ,update the sudoers module that live in your environment  
+
+
+
+			
