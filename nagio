@@ -22,6 +22,6 @@ Allow all group user to run DB related commands
 For help create a jira ticket with the PAs Platform  infrastructure 
 
 This file is just a skeleton sudoers file with some PAS wide Default 
-To add/change sudoers at the team Level ,update the sudoers module that live in your environment 
+To add/change sudoers at the team Level ,update the sudoers module that live in your environment .... 
 
 			
